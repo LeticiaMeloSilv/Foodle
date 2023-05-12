@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +17,7 @@ body{
     padding-left: 96px;
     padding-right: 96px;
     background-color: #FFF0E9;
+    
 }
 header{
     height: 70px;
@@ -24,7 +28,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    font-size: 20px;
+    font-size: 21px;
 }
 h1{
     font-size: 36px;
@@ -56,7 +60,7 @@ h1{
     font-family: 'Kanit', sans-serif;
     border: 2px solid #D86061;
     border-radius: 48px;
-    padding: 10px;
+    padding: 1%;
 }
 main{
     height: 500px;
@@ -65,11 +69,11 @@ main{
 .titulo{
     width: 700px;
     height: 182px;
-    font-family: 'Righteous', cursive;
     font-style: inherit;
-    font-size: 60px;
+    font-size: 64px;
     color: #D86061;
     position:relative;
+    font-family: 'Braah One', sans-serif;
 
 }
 .foodle{
@@ -132,7 +136,7 @@ main{
     background-color: #D86061;
 }
 .img_order{
-    height: 30px;
+    height: 35px;
     background-color: #FACD69;
     border-radius: 111px;
     display: inline-block;
@@ -155,6 +159,9 @@ footer{
     border: 1px solid #000000;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 66px;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }
 .Fast{
     font-size: 20px;
@@ -163,8 +170,7 @@ footer{
     width: 220px;
 }
 .img_fast{
-    height: 60px;
-    background-color: #FACD69;
+    height: 50px;
     border-radius: 111px;
     display: inline-block;
     vertical-align: middle;
@@ -185,14 +191,13 @@ footer{
 }
 .Free{
     font-size: 20px;
-    width: 100px;
+    width: 150px;
 }
 .free{
-    width: 220px;
+    width: 210px;
 }
 .img_free{
     height: 50px;
-    background-color: #FACD69;
     border-radius: 111px;
     display: inline-block;
     vertical-align: middle;
