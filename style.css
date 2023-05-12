@@ -56,6 +56,7 @@ h1{
     font-family: 'Kanit', sans-serif;
     border: 2px solid #D86061;
     border-radius: 48px;
+    padding: 10px;
 }
 main{
     height: 500px;
@@ -68,6 +69,8 @@ main{
     font-style: inherit;
     font-size: 60px;
     color: #D86061;
+    position:relative;
+
 }
 .foodle{
     border: 9px solid #FACD69;
@@ -90,16 +93,107 @@ main{
 }
 .seta{
     position: absolute;
-    width: 263px;
-    height: 175px;
+    width: 238px;
+    height: 150px;
     left: 550px;
-    top: 10%;
+    top: 60px;
 }
 .ovo{
     position: absolute;
     left: 740px;
-    top: 90px;
-    width: 421px;
-    height: 414px;
-    filter: drop-shadow(0px 50px 4px rgba(0, 0, 0, 0.25));
+    top: 50px;
+    width: 401px;
+    height: 394px;
+    filter: drop-shadow(0px 30px 4px rgba(0, 0, 0, 0.25));
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 20px;
+}
+.img_buy{
+    height: 30px;
+    background-color: #FACD69;
+    border-radius: 111px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.buy{
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF0E9;
+}
+.borda1 {
+    border:solid #D86061;
+    width: 110.04px;
+    border-radius: 111px;
+    background-color: #D86061;
+}
+.img_order{
+    height: 30px;
+    background-color: #FACD69;
+    border-radius: 111px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.order{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer{
+    margin-top: -11%;
+}
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 1065px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+.Fast{
+    font-size: 20px;
+}
+.fast{
+    width: 220px;
+}
+.img_fast{
+    height: 60px;
+    background-color: #FACD69;
+    border-radius: 111px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Fresh{
+    font-size: 20px;
+    width: 100px;
+}
+.fresh{
+    width: 220px;
+}
+.img_fresh{
+    height: 50px;
+    background-color: #FACD69;
+    border-radius: 111px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Free{
+    font-size: 20px;
+    width: 100px;
+}
+.free{
+    width: 220px;
+}
+.img_free{
+    height: 50px;
+    background-color: #FACD69;
+    border-radius: 111px;
+    display: inline-block;
+    vertical-align: middle;
 }
